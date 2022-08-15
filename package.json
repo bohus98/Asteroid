@@ -1,0 +1,29 @@
+{
+  "name": "@bvs/spaceship",
+  "version": "1.0.0",
+  "main": "src/entry/index.ts",
+  "author": "Zdeněk Novák <novak@bigvillagestudio.com>",
+  "license": "UNLICENSED",
+  "private": true,
+  "scripts": {
+    "build": "webpack --config webpack.config.js --mode=production",
+    "build:dev": "webpack --config webpack.config.js --mode=development",
+    "server:start": "webpack-dev-server --config webpack.config.js --mode=development"
+  },
+  "devDependencies": {
+    "css-loader": "^6.7.1",
+    "file-loader": "^6.2.0",
+    "html-webpack-plugin": "^5.5.0",
+    "mini-css-extract-plugin": "^2.6.1",
+    "printf": "^0.6.1",
+    "slugify": "^1.6.5",
+    "ts-loader": "^9.3.1",
+    "typescript": "^4.7.4",
+    "webpack": "^5.74.0",
+    "webpack-cli": "^4.10.0",
+    "webpack-dev-server": "^4.10.0"
+  },
+  "dependencies": {
+    "phaser": "^3.55.2"
+  }
+}
